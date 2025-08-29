@@ -1,11 +1,26 @@
 # Ignore Python's virtual environment
 venv/
 env/
+.venv/
 
 # Ignore Python's cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Ignore IDE/editor-specific files
 .vscode/
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore testing and local files
+.pytest_cache/
+test_*.py
+todays_notifications.csv
+weekly_routed_leads.csv
+weekly_lead_report.html
