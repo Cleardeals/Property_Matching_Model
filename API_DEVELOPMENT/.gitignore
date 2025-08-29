@@ -1,0 +1,33 @@
+# Python virtual environments
+/venv/
+/env/
+/.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor configuration files
+.vscode/
+.idea/
+
+# Sensitive Files - NEVER commit your service account key!
+*.json
+# Important: If you need to commit a specific JSON file that is NOT a key,
+# you can add an exception like this:
+# !geo_mapping.json
+# !active_to_expired_mapping.json
+
+# Large AI Model Assets
+# These are often too large for Git. Store them separately or use Git LFS.
+/model_assets/
+
+# Generated output files
+*.csv
+*.html
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
